@@ -15,8 +15,6 @@ I'm curious about one thing above everything else - how AI and IoT can work toge
 
 - MSc Global Project Management — University of Essex
 - BEng Electronics & Communications Engineering
-- Data Quality Reviewer at Sigma AI, London
-- Based in London, United Kingdom
 
 ## What I Believe
 

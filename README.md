@@ -1,64 +1,80 @@
 # Bhumii Shah
 
-**AI researcher exploring how systems can understand and respect human individuality.**
-
-I work at the intersection of AI quality and real-world impact. My observation is simple: AI fails when it treats people as data points instead of individuals.
+I notice patterns in how AI gets things wrong. That's what I want to build for.
 
 ---
 
-## The Core Problem
+## Where This Started
 
-In my day job at Sigma AI, I review training data for conversational AI systems. I've noticed a pattern: AI gives answers based on patterns it learned, without understanding context. It doesn't know that the same question means different things to different people. Humans get misled because AI just mirrors what it was fed.
+I work with AI training data every day. And I keep noticing the same thing: the AI doesn't understand that every person is different.
 
-But the deeper insight: **the human is central, not the AI.** Real problems aren't technical—they're about understanding individual difference.
+The model assumes one way of speaking means one thing. But context matters. Background matters. How people express themselves matters. Every person is unique. Yet the AI was trained on averages.
 
----
-
-## My Research
-
-I explore how to design AI systems that respect individual human difference across three critical domains:
-
-**Healthcare** — [Artificial Intelligence Enabled Device to Predict Alzheimer's Disease](https://github.com/Bhumii-AI-IoT/alzheimer-ai-device)
-How can AI understand that early warning signs look different for every person? Exploring multimodal biomarkers (EEG + eye-tracking) for individual-level detection instead of population averages.
-
-**Emergency Response** — [AI Care Alert](https://github.com/Bhumii-AI-IoT/ai-care-alert)
-How can emergency systems adapt to individual needs? Building tiered alert logic that understands different user states—not one generic response for everyone.
-
-**Predictive Systems** — [AI-IoT Maintenance](https://github.com/Bhumii-AI-IoT/AI-IoT-Maintenance)
-How can predictive models respect that machines fail differently based on context? Exploring adaptive monitoring instead of universal thresholds.
-
-**Data Quality** — [Audio QA Dashboard](https://github.com/Bhumii-AI-IoT/audio-qa-dashboard)
-Where does AI misunderstand in real data? Building tools that reveal patterns in QA work—showing exactly where AI loses context and why.
+That observation stuck with me. It made me think: what if we stopped designing AI for the average person and started designing for the individual?
 
 ---
 
-## My Background
+## What I'm Building
 
-- **MSc Global Project Management** — University of Essex
-- **BEng Electronics & Communications Engineering** — India
-- **Data Quality Specialist** — Sigma AI, London
-- **Self-taught in AI/IoT** — Starting from a smart energy meter project in my bachelor's final semester
+I've designed two wearable devices exploring this question:
 
----
+**UK IPO Registered Design: Alzheimer's Device**
 
-## What I Believe
+I was thinking about early detection. About families having time to prepare. About how Alzheimer's shows differently in every person — their biomarkers are unique, their patterns are unique.
 
-AI systems will only be reliable when they stop treating people as data points and start respecting human difference. Real innovation isn't about building smarter models—it's about understanding what the model is missing.
+What if a wearable could understand individual baseline and detect when things change? Not predict for everyone the same way. But understand how *this* person is different from *their own* normal.
 
-Technology should be practical. I'm not interested in how AI works in research papers. I want to understand how it fails in real systems, and why.
+I designed a visor concept using EEG and eye-tracking. Got it registered with the UK IPO in May 2025.
 
----
+**India Registered Design: The Bracelet Component**
 
-## Publications & Presentations
+Same thinking applied differently. Protected the design in India too.
 
-- 4 peer-reviewed papers on IoT and embedded systems (IJTSRD)
-- Presented AgroSmart at PiCET — Parul University International Conference (May 2025)
-- Original device concept with IP protection in progress
+These aren't finished products. They're concepts I wanted to protect because I believe the thinking is right.
 
 ---
 
-## Get In Touch
+## Why I Publish Research
 
-[LinkedIn](https://www.linkedin.com/in/bhumii-shah-ai-iot)
+I've published 5 papers on IoT and embedded systems. Because the foundation matters.
 
-*AI researcher. AI Data quality specialist. Based in London.*
+If you're going to design systems that respect individual difference, you need to understand how sensors work, how to process signals reliably, what's possible with real constraints.
+
+The research grounds the design.
+
+---
+
+## GitHub Projects
+
+I built prototypes to show how this works:
+
+**Alzheimer's device** — Signal processing and ML classification for individual biomarker detection
+
+**Emergency alert system** — Alerts that understand individual needs, not one-size-fits-all responses
+
+**IoT predictive maintenance** — Systems that learn how machines fail individually
+
+**Data quality work** — Real QA data showing where AI misunderstands people
+
+Each one says the same thing: systems work better when they see individuals, not averages.
+
+---
+
+## Recognition
+
+I've presented at international conferences and review papers for Springer Nature.
+
+---
+
+## Background
+
+- Master's in Global Project Management (University of Essex)
+- Bachelor's in Electronics & Communications Engineering
+- Started noticing these patterns working on data quality
+- Based in London
+
+---
+
+**LinkedIn:** [Bhumii Shah](https://www.linkedin.com/in/bhumii-shah-ai-iot)
+
+*Building systems that understand people.*

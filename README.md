@@ -87,6 +87,6 @@ That combination — engineering fundamentals, project management methodology, a
 
 Open to conversations about AI data quality, multilingual speech data, and building tools that make quality visible.
 
-📧 bhumiishah33@gmail.com · 💼 (LinkedIn)  https://www.linkedin.com/in/bhumii-shah-ai-iot
+📧 bhumiishah33@gmail.com · 💼 (LinkedIn) [https://www.linkedin.com/in/bhumii-shah-ai-iot]
 
 *Building systems that understand people.*

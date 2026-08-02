@@ -58,17 +58,17 @@ I review manuscripts for **Scientific Reports** (Springer Nature), and I served 
 
 Reviewing has taught me more about rigour than writing ever did. Reading a paper and asking *is this measured or projected, is this validated or simulated, do these two numbers agree* — that's the same instinct I use in QA, and it's the reason I caught the leakage in my own model.
 
-I also publish on IoT and embedded systems. If you're going to design systems that respect individual difference, you need to understand how sensors work, how to process signals reliably, and what's possible under real constraints. The research grounds the design.
+I have published on IoT and embedded systems. If you're going to design systems that respect individual difference, you need to understand how sensors work, how to process signals reliably, and what's possible under real constraints. The research grounds the design.
 
 ---
 
 ## Tech Stack
 
-**Languages** · Python · SQL
-**ML & Data** · scikit-learn · pandas · NumPy
-**Visualisation** · Streamlit · Plotly · Matplotlib
-**Domains** · Audio & speech data quality · multilingual annotation · signal processing · IoT & embedded systems
-**Ways of working** · Project management (MSc) · risk tracking · quality gates · peer review
+- **Languages** — Python, SQL
+- **ML & Data** — scikit-learn, pandas, NumPy
+- **Visualisation** — Streamlit, Plotly, Matplotlib
+- **Domains** — Audio & speech data quality, multilingual annotation, signal processing, IoT & embedded systems
+- **Ways of working** — Project management (MSc), risk tracking, quality gates, peer review
 
 ---
 
@@ -87,6 +87,6 @@ That combination — engineering fundamentals, project management methodology, a
 
 Open to conversations about AI data quality, multilingual speech data, and building tools that make quality visible.
 
-📧 bhumiishah33@gmail.com · 💼 [LinkedIn](linkedin.com/in/bhumii-shah-ai-iot)
+📧 bhumiishah33@gmail.com · 💼 https://www.linkedin.com/in/bhumii-shah-ai-iot
 
 *Building systems that understand people.*

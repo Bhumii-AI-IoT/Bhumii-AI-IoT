@@ -43,6 +43,7 @@ The first version of this pipeline ran on synthetic EEG and scored almost perfec
 Machine failure is rare in this dataset, which is the interesting part — accuracy is close to useless when one class is under 4% of the data. The numbers that matter are on the failure class: precision 0.750, recall 0.706, PR-AUC 0.781. Catching roughly seven failures in ten, with three false alarms in every twelve flags.
 
 Population-level, not per-machine. Learning individual machine baselines is where I'd take this next, but it needs data this benchmark doesn't contain.
+
 ---
 
 ## Registered Design Work

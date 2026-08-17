@@ -26,18 +26,23 @@ Built from patterns I see in daily review work. All data in the repo is syntheti
 
 Worth reading the "What I Got Wrong First" section. The first model reported 100% accuracy because I'd handed it two features the answer was calculated from. Target leakage. Finding and fixing it taught me more than the model did.
 
-**[alzheimer-ai-device](https://github.com/Bhumii-AI-IoT/alzheimer-ai-device)** — signal processing and ML classification for individual biomarker detection.
+**[alzheimer-ai-device](https://github.com/Bhumii-AI-IoT/alzheimer-ai-device)** — EEG signal processing and ML classification for early Alzheimer's detection.
 
-I was thinking about early detection. About families having time to prepare. About how Alzheimer's shows differently in every person — their biomarkers are unique, their patterns are unique.
+I was thinking about early detection. About families having time to prepare. About how Alzheimer's shows differently in every person. The long-term aim is a wearable that learns an individual baseline and flags when *that person* changes from *their own* normal, rather than from a population average.
 
-What if a wearable could learn an individual baseline and detect when *that person* changes from *their own* normal, rather than from a population average?
+What the repo does today is the step before that: group classification on real clinical recordings. OpenNeuro ds004504, 65 subjects (36 Alzheimer's, 29 controls) after excluding frontotemporal dementia cases. ROC-AUC 0.789, recall 0.722 on the Alzheimer's class, under leave-one-subject-out validation — one feature vector per subject, so no recording from a test subject appears in training. That matters with EEG, where individual recordings carry person-specific signatures.
+
+I also compared electrode configurations relevant to the wearable concept: 9 frontal/temporal channels 0.815, 7 posterior 0.805, full 19-channel montage 0.790. I don't claim fewer electrodes are better. The spread is small enough to be noise — the only conclusion I draw is that I saw no meaningful penalty from the frontal/temporal layout in this dataset.
+
+The first version of this pipeline ran on synthetic EEG and scored almost perfectly. The simulator was assigning fixed values per group, so the label was written into the features. I discarded it and rebuilt on real recordings. The synthetic version is still on a separate branch rather than quietly deleted.
 
 **[ai-care-alert](https://github.com/Bhumii-AI-IoT/ai-care-alert)** — emergency alerts that account for individual needs rather than one-size-fits-all thresholds.
 
-**[AI-IoT-Maintenance](https://github.com/Bhumii-AI-IoT/AI-IoT-Maintenance)** — predictive maintenance using Random Forest to learn how individual machines fail.
+**[AI-IoT-Maintenance](https://github.com/Bhumii-AI-IoT/AI-IoT-Maintenance)** — predictive maintenance classification on the AI4I 2020 benchmark (UCI).
 
-Each one says the same thing: systems work better when they see individuals, not averages.
+Machine failure is rare in this dataset, which is the interesting part — accuracy is close to useless when one class is under 4% of the data. The numbers that matter are on the failure class: precision 0.750, recall 0.706, PR-AUC 0.781. Catching roughly seven failures in ten, with three false alarms in every twelve flags.
 
+Population-level, not per-machine. Learning individual machine baselines is where I'd take this next, but it needs data this benchmark doesn't contain.
 ---
 
 ## Registered Design Work
@@ -54,11 +59,9 @@ These aren't finished products. They're concepts I wanted to protect because I b
 
 ## Research & Peer Review
 
-I review manuscripts for **Scientific Reports** (Springer Nature), and I served as a reviewer for **SPACAID 2026**, assessing submissions across embedded systems, biomedical devices and applied AI — FPGA-based real-time systems, adaptive medical devices, and EEG-driven machine learning frameworks.
+I review manuscripts for **Scientific Reports** (Springer Nature), and I served as a meta-reviewer for **SPAC-AID 2026**, assessing submissions across embedded systems, biomedical devices and applied AI — FPGA-based real-time systems, adaptive medical devices, and EEG-driven machine learning frameworks.
 
 Reviewing has taught me more about rigour than writing ever did. Reading a paper and asking *is this measured or projected, is this validated or simulated, do these two numbers agree* — that's the same instinct I use in QA, and it's the reason I caught the leakage in my own model.
-
-I have published on IoT and embedded systems. If you're going to design systems that respect individual difference, you need to understand how sensors work, how to process signals reliably, and what's possible under real constraints. The research grounds the design.
 
 ---
 
@@ -75,7 +78,7 @@ I have published on IoT and embedded systems. If you're going to design systems 
 ## Background
 
 - MSc Global Project Management — University of Essex
-- BSc Electronics & Communications Engineering
+- BE Electronics & Communications Engineering
 - AI data quality, London — audio and conversational AI training data
 - Based in London
 

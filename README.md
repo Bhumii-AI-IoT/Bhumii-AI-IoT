@@ -60,7 +60,18 @@ These aren't finished products. They're concepts I wanted to protect because I b
 
 ## Research & Peer Review
 
-I review manuscripts for **Scientific Reports** (Springer Nature), and I served as a meta-reviewer for **SPAC-AID 2026**, assessing submissions across embedded systems, biomedical devices and applied AI — FPGA-based real-time systems, adaptive medical devices, and EEG-driven machine learning frameworks.
+I review manuscripts for **Scientific Reports** (Springer Nature), and I served as a meta-reviewer for **SPAC-AID 2026**, assessing submissions across embedded systems, biomedical devices and applied AI - FPGA-based real-time systems, adaptive medical devices, and EEG-driven machine learning frameworks.
+
+I also reviewed five submissions for IEEE ICMICPS-2026 (Machine Intelligence and 
+Cyber Physical Systems), AI and Data Science track - LLM routing architectures, 
+Alzheimer's imaging classification, explainable anaemia prediction, and metaphor 
+interpretation in NLP.
+
+Different domains, same gap kept showing up: strong models, thin reporting. No 
+dataset size stated. Unclear whether augmentation happened before or after the 
+train/test split. Results with no confidence intervals. The kind of thing I now 
+check for in my own repos, because it's exactly what I got wrong first in the 
+audio-qa-dashboard and alzheimer-ai-device work above.
 
 Reviewing has taught me more about rigour than writing ever did. Reading a paper and asking *is this measured or projected, is this validated or simulated, do these two numbers agree* — that's the same instinct I use in QA, and it's the reason I caught the leakage in my own model.
 
